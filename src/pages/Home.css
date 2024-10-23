@@ -1,0 +1,201 @@
+.home {
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;    
+}
+
+.home h1 {
+    margin-left: 30%;
+    margin-right: 27%;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    margin-left: 30%;
+    margin-right: 29%;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.brand {
+    margin-left: 30%;
+    margin-right: 27%;
+}
+
+.brand img {
+    height: 35px;
+    margin-right: 7%;
+}
+
+.home button {
+    margin-left: 30%;
+    margin-right: 27%;
+    background-color: #ffbf00;
+    border: 2px solid;
+    border-color: #ffa631;
+    margin: 50px;
+    padding: 10px 100px;
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home button:hover {
+    background-color: #fdd939;
+}
+
+.student img {
+    align-items: center;
+    width: 40%;
+}
+
+.student p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+.middle {
+    background-color: #3B3B4F;
+    text-align: center;
+    padding: 20px 0 60px;
+    color: white;
+}
+
+h2 {
+    font-size: 2.7rem;
+    margin-bottom: 40px;
+    color: rgb(221, 219, 219);
+}
+
+.middle .image {
+    margin-left: 30%;
+    margin-right: 27%;
+}
+
+.middle img {
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 25px;
+    filter: grayscale(100%) invert(100%);
+}
+
+.alumni {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3 {
+    font-size: 2.7rem;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(255, 255, 255);    
+    align-items: center;
+    box-shadow: #d4d4d4 0 0 10px;
+    margin-bottom: 50px;
+}
+
+.box img {
+    background-color: rgb(255, 255, 255);    
+    align-items: center;
+    height: 300px;
+}
+
+.info p {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 50px 20px 30px;
+}
+
+.core-curiculum {
+    justify-content: center;
+    align-items: center;
+}
+
+.cocuriculum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #343a40;
+    color: #343a40;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.other-curiculum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 0%;
+}
+
+.certification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    padding: 10px;
+    border: 3px solid #1b1b32;
+    background-color: #d0d0d5;
+    transition: background-color 0.3s;
+}
+
+.certification:hover {
+    background-color: #261e2b;
+    color: #f5f5f5;
+}
+
+.icon {
+    margin-left: 5px;
+    font-size: 50px;
+}
+
+.name {
+    flex-grow: 1;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.arrow {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.FaQ {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h4 {
+    font-size: 21px;
+    text-align: left;
+}
+
+.FaQ p {
+    font-size: 18px;
+    text-align: left;
+    margin: 0%;
+}

@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a23;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+}
+
+.search-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.search-box button {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: #0a0a23;
+    fill: white;
+    height: 20px;
+}
+
+.search-box input {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: #0a0a23;
+    color: white;
+    height: 20px;
+    width: 250px;
+}
+
+.header-logo img {
+    color: white;
+    align-items: center;
+    height: 35px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.language-icon {
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+.navbar-menu li a {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 1.5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-menu li:last-child a {
+    border: 1px solid rgb(255, 136, 0);
+    background-color: #ffbf00;
+    color: black;
+}
